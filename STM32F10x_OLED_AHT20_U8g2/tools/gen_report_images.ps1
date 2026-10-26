@@ -285,7 +285,7 @@ function Scene-Task1Info {
     $buf = New-Screen
     Draw-Text16 $buf 32 0 @(0x5B66, 0x751F, 0x4FE1, 0x606F)
     Draw-HLine $buf 0 17 128
-    Draw-Text16 $buf 40 21 @(0x5F90, 0x6B63, 0x5FC3)
+    Draw-Text16 $buf 40 21 @(0x5F90, 0x6B63, 0x6615)
     Draw-String5x7 $buf 28 39 '632407030612'
     Draw-Text16 $buf 36 47 @(0x901A, 0x4FE1, [int][char]'2', [int][char]'4', [int][char]'0', [int][char]'3')
 
@@ -397,7 +397,7 @@ function Scene-Task3Info {
     $buf = New-Screen
     Draw-String5x7 $buf 10 0 'U8g2 PORT' 2
     Draw-HLine $buf 0 16 128
-    Draw-Text16 $buf 40 20 @(0x5F90, 0x6B63, 0x5FC3)
+    Draw-Text16 $buf 40 20 @(0x5F90, 0x6B63, 0x6615)
     Draw-String5x7 $buf 28 38 '632407030612'
     Draw-Text16 $buf 36 48 @(0x901A, 0x4FE1, [int][char]'2', [int][char]'4', [int][char]'0', [int][char]'3')
 
@@ -473,7 +473,7 @@ function Scene-Task3Avatar {
         Draw-String5x7 $buf 28 0 '632407030612'
         Draw-Bitmap $buf 2 7 56 56 $frames[$i]
         Draw-Text16 $buf 80 12 @(0x5934, 0x50CF)
-        Draw-Text16 $buf 74 32 @(0x5F90, 0x6B63, 0x5FC3)
+        Draw-Text16 $buf 74 32 @(0x5F90, 0x6B63, 0x6615)
         Draw-Text16 $buf 70 48 @(0x901A, 0x4FE1, [int][char]'2', [int][char]'4', [int][char]'0', [int][char]'3')
         Add-Oled $card $buf (70 + $i * 500) 170 3 $labels[$i]
     }

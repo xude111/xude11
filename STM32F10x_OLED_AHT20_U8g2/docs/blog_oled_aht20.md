@@ -56,7 +56,7 @@ s_gram[(y >> 3) * OLED_WIDTH + x] |= (uint8_t)(1U << (y & 7));
 一开始我直接在代码里写：
 
 ```c
-OLED_ShowString(0, 0, "徐正心");
+OLED_ShowString(0, 0, "徐正昕");
 ```
 
 结果 Keil 编译出来不是乱码就是缺字。原因是源文件编码、编译器执行字符集和字库编码三者不一致。后来改成 **Unicode 码点数组**：
@@ -64,7 +64,7 @@ OLED_ShowString(0, 0, "徐正心");
 ```c
 static const uint16_t TXT_NAME[] =
 {
-    0x5F90, 0x6B63, 0x5FC3, 0   /* 徐正心 */
+    0x5F90, 0x6B63, 0x6615, 0   /* 徐正昕 */
 };
 ```
 

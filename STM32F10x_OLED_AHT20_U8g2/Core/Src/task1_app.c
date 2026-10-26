@@ -24,7 +24,7 @@
 
 static const uint16_t TXT_NAME[] =
 {
-    0x5F90, 0x6B63, 0x5FC3, 0   /* 徐正心 */
+    0x5F90, 0x6B63, 0x6615, 0   /* 徐正昕 */
 };
 
 static const uint16_t TXT_CLASS[] =

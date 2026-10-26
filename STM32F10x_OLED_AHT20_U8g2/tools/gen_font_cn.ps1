@@ -193,7 +193,7 @@ uint16_t FontCN_Count(void);
 #endif
 
 #endif /* FONT_CN_H */
-"@
+"@ + "`n"
 
 [IO.File]::WriteAllText($outC, $sb.ToString(), (New-Object System.Text.UTF8Encoding($false)))
 [IO.File]::WriteAllText($outH, $hdr, (New-Object System.Text.UTF8Encoding($false)))

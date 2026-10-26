@@ -31,7 +31,7 @@ static uint16_t s_tx_len;
 
 static const uint16_t TXT_NAME[] =
 {
-    0x5F90, 0x6B63, 0x5FC3, 0   /* 徐正心 */
+    0x5F90, 0x6B63, 0x6615, 0   /* 徐正昕 */
 };
 
 static const uint16_t TXT_CLASS[] =
@@ -466,7 +466,7 @@ static void Task3_DrawAvatarPage(uint8_t frame)
                   (frame != 0U) ? avatar_frame1 : avatar_frame0);
 
     T3_DrawText16(&s_u8g2, 80, 12, TXT_AVATAR);   /* 头像 */
-    T3_DrawText16(&s_u8g2, 74, 32, TXT_NAME);     /* 徐正心 */
+    T3_DrawText16(&s_u8g2, 74, 32, TXT_NAME);     /* 徐正昕 */
     T3_DrawText16(&s_u8g2, 70, 48, TXT_CLASS);    /* 通信2403 */
 
     u8g2_SendBuffer(&s_u8g2);

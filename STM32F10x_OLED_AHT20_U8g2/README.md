@@ -5,7 +5,7 @@
 
 | 项目 | 内容 |
 |---|---|
-| 姓名 | 徐正心 |
+| 姓名 | 徐正昕 |
 | 学号 | 632407030612 |
 | 班级 | 通信 2403（EIE 2403） |
 | 实验室 | 重庆交通大学物联网 205 实训室 |
@@ -239,6 +239,6 @@ STM32F10x_OLED_AHT20_U8g2/
 - **STM32F1xx HAL / CMSIS**：STMicroelectronics，BSD 3-Clause。
 - **U8g2**：Oliver Kraus，BSD 2-Clause；本仓库仅做文件裁剪，未修改核心算法，原版权声明保留在源文件中。
 - **Adafruit GFX 5×7 字库**：Adafruit Industries，BSD 许可。
-- 本项目应用层代码、字库生成脚本和文档由徐正心编写，采用 MIT License，供课程学习使用。
+- 本项目应用层代码、字库生成脚本和文档由徐正昕编写，采用 MIT License，供课程学习使用。
 
 详细许可见 [`LICENSE`](LICENSE) 和 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。
